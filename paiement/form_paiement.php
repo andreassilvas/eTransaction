@@ -1,7 +1,7 @@
 <form>
     <div class="row">
         <div class="col-8 pad-left">
-            <div class="card mb-4 rounded-0">
+            <div class="card mb-4 rounded-4">
                 <div class="card-body">
                     <div class="col-sm-7 d-flex align-items-center">
                         <img src="public/images/redeem_card.webp" alt="Icône carte-cadeau" width="30" height="30"
@@ -68,7 +68,7 @@
                 <div class="card-body">
                     <?php include 'includes/resume_commande.php' ?>
                     <div class="d-grid mt-3">
-                        <button type="submit" class="btn btn-warning rounded-4">Continuer</button>
+                        <?php include 'includes/base_button.php' ?>
                     </div>
                     <?php include "includes/base-form-inputs/security_message.php";
                     ?>
