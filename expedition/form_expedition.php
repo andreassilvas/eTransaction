@@ -1,7 +1,7 @@
 <form>
     <div class="row">
         <div class="col-8 pad-left">
-            <div class="card mb-4 rounded-0">
+            <div class="card mb-4 rounded-4">
                 <div class="card-body mt-3">
                     <h6 class="card-title">Coordonnées</h6>
                     <div class="mb-3 col-sm-7">
@@ -10,7 +10,7 @@
                 </div>
 
             </div>
-            <div class="card rounded-0">
+            <div class="card rounded-4">
                 <div class="card-body mt-3">
                     <h6 class="card-title">Adresse de livraison</h6>
                     <div class="row">
@@ -47,11 +47,11 @@
             </div>
         </div>
         <div class="col-4 pad-right">
-            <div class="card rounded-0" style="height: 713.47px">
+            <div class="card rounded-4">
                 <div class="card-body">
                     <?php include 'includes/resume_commande.php' ?>
                     <div class="d-grid mt-3">
-                        <button type="submit" class="btn btn-warning rounded-0">Continuer</button>
+                        <?php include 'includes/base_button.php' ?>
                     </div>
                     <?php include "includes/base-form-inputs/security_message.php";
                     ?>

@@ -2,7 +2,7 @@
     <label for="<?= $id ?>"><?= $label ?></label>
 
     <!-- Input with right icon inside -->
-    <input type="<?= $type ?>" class="form-control rounded-0 <?= isset($icon) ? 'pe-5' : '' ?>" id="<?= $id ?>"
+    <input type="<?= $type ?>" class="form-control rounded-3 <?= isset($icon) ? 'pe-5' : '' ?>" id="<?= $id ?>"
         name="<?= $name ?>" value="<?= $input_value ?? '' ?>" placeholder="<?= $placeholder ?? '' ?>">
 
     <?php if (isset($icon)): ?>

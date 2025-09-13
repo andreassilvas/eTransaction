@@ -1,6 +1,6 @@
 <div class="d-flex align-items-start gap-3 mt-5">
     <div>
-        <img src="public/images/lock.png" alt="Lock" class="img-fluid" style="width:180px;">
+        <img src="public/images/lock.webp" alt="Lock" class="img-fluid" style="width:180px;">
     </div>
     <div>
         <h5>Sécurité et confidentialité</h5>

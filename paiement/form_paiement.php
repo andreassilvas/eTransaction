@@ -64,11 +64,11 @@
             </div>
         </div>
         <div class="col-4 pad-right">
-            <div class="card rounded-0" style="height: 713.47px">
+            <div class="card rounded-0">
                 <div class="card-body">
                     <?php include 'includes/resume_commande.php' ?>
                     <div class="d-grid mt-3">
-                        <button type="submit" class="btn btn-warning rounded-0">Continuer</button>
+                        <button type="submit" class="btn btn-warning rounded-4">Continuer</button>
                     </div>
                     <?php include "includes/base-form-inputs/security_message.php";
                     ?>
