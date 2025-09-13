@@ -1,4 +1,4 @@
-body {
+ body {
   background-color: #e2e3e5;
 }
 .container {
@@ -13,4 +13,8 @@ body {
 .mar-left{
   margin-left: 1rem !important;
 }
+.nav-links:hover {
+  color: #fff !important;
+}
+ 
 
